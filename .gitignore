@@ -38,6 +38,7 @@
 *.sln
 *.vcxproj*
 *.user
+.vs/
 .vs/*
 
 # Mac generate files
