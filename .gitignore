@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+# VS generate files
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+*.sln
+*.vcxproj*
+*.user
+
+# Mac generate files
+.DS_Store
+*.dSYM
