@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\leetcode\\ArrayProjects\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8AA1BE-B52D-4B48-A6E3-995A59135BF7}|ArrayProjects\\ArrayProjects.vcxproj|E:\\leetcode\\ArrayProjects\\ArrayProjects\\704ErFenSearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B8AA1BE-B52D-4B48-A6E3-995A59135BF7}|ArrayProjects\\ArrayProjects.vcxproj|solutionrelative:ArrayProjects\\704ErFenSearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8AA1BE-B52D-4B48-A6E3-995A59135BF7}|ArrayProjects\\ArrayProjects.vcxproj|E:\\leetcode\\ArrayProjects\\ArrayProjects\\ArrayProjects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B8AA1BE-B52D-4B48-A6E3-995A59135BF7}|ArrayProjects\\ArrayProjects.vcxproj|solutionrelative:ArrayProjects\\ArrayProjects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8AA1BE-B52D-4B48-A6E3-995A59135BF7}|ArrayProjects\\ArrayProjects.vcxproj|E:\\leetcode\\ArrayProjects\\ArrayProjects\\InputUtil.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B8AA1BE-B52D-4B48-A6E3-995A59135BF7}|ArrayProjects\\ArrayProjects.vcxproj|solutionrelative:ArrayProjects\\InputUtil.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "704ErFenSearch.cpp",
+              "DocumentMoniker": "E:\\leetcode\\ArrayProjects\\ArrayProjects\\704ErFenSearch.cpp",
+              "RelativeDocumentMoniker": "ArrayProjects\\704ErFenSearch.cpp",
+              "ToolTip": "E:\\leetcode\\ArrayProjects\\ArrayProjects\\704ErFenSearch.cpp",
+              "RelativeToolTip": "ArrayProjects\\704ErFenSearch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-18T03:43:52.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputUtil.cpp",
+              "DocumentMoniker": "E:\\leetcode\\ArrayProjects\\ArrayProjects\\InputUtil.cpp",
+              "RelativeDocumentMoniker": "ArrayProjects\\InputUtil.cpp",
+              "ToolTip": "E:\\leetcode\\ArrayProjects\\ArrayProjects\\InputUtil.cpp",
+              "RelativeToolTip": "ArrayProjects\\InputUtil.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-18T03:29:47.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArrayProjects.cpp",
+              "DocumentMoniker": "E:\\leetcode\\ArrayProjects\\ArrayProjects\\ArrayProjects.cpp",
+              "RelativeDocumentMoniker": "ArrayProjects\\ArrayProjects.cpp",
+              "ToolTip": "E:\\leetcode\\ArrayProjects\\ArrayProjects\\ArrayProjects.cpp",
+              "RelativeToolTip": "ArrayProjects\\ArrayProjects.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-18T03:02:52.805Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
