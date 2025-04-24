@@ -2,8 +2,9 @@
 #include <vector>
 #include "InputUtil.cpp"
 #include "704ErFenSearch.cpp"
+#include "27RemoveArrayElement.cpp"
 
-#define NUMBER 704
+#define NUMBER 27
 
 int main()
 {
@@ -11,7 +12,9 @@ int main()
 	std::vector<int> intVector = InputUtil::InputVector<int>("请输入一行整数，以空格分割：", ' ');
 	int target = InputUtil::InputT<int>("请输入要查找的数字：");
 	int ret = ErFenSearch::search(intVector, target);
-#elif NUMBER == 705
-
+#elif NUMBER == 27
+	std::vector<int> intVector = InputUtil::InputVector<int>("请输入一行整数，以空格分割：", ' ');
+	int target = InputUtil::InputT<int>("请输入要移除的数字：");
+	int length = RemoveArrayElement::removeElement(intVector, target);
 #endif
 }
