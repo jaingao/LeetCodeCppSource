@@ -3,8 +3,9 @@
 #include "InputUtil.cpp"
 #include "704ErFenSearch.cpp"
 #include "27RemoveArrayElement.cpp"
+#include "LCS.cpp"
 
-#define NUMBER 27
+#define NUMBER 1143
 
 int main()
 {
@@ -16,5 +17,7 @@ int main()
 	std::vector<int> intVector = InputUtil::InputVector<int>("请输入一行整数，以空格分割：", ' ');
 	int target = InputUtil::InputT<int>("请输入要移除的数字：");
 	int length = RemoveArrayElement::removeElement(intVector, target);
+#elif NUMBER == 1143
+	int ret = LCS::longestCommonSubsequence("abcde", "ace");
 #endif
 }
