@@ -6,9 +6,9 @@
 class InputUtil
 {
 public:
-	template<typename T>
-	static std::vector<T> InputVector(const std::string& prompt = "", char delimiter = ' ')
-	{
+    template<typename T>
+    static std::vector<T> InputVector(const std::string& prompt = "", char delimiter = ' ')
+    {
         std::vector<T> result;
         std::string inputLine;
 
@@ -37,7 +37,7 @@ public:
         }
 
         return result;
-	}
+    }
 
     template<typename T>
     static T InputT(const std::string& prompt = "") {

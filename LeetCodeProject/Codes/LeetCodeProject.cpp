@@ -1,10 +1,9 @@
 ﻿#include <iostream>
 #include <vector>
-#include "InputUtil.cpp"
-#include "704ErFenSearch.cpp"
-#include "27RemoveArrayElement.cpp"
-#include "LCS.cpp"
-
+#include "Utils/InputUtil.cpp"
+#include "Array/27RemoveArrayElement.cpp"
+#include "Array/704ErFenSearch.cpp"
+#include "DynamicPlanning/LCS.cpp"
 #define NUMBER 1143
 
 int main()
