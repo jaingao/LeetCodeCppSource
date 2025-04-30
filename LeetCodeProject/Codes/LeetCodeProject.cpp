@@ -3,8 +3,9 @@
 #include "Utils/InputUtil.cpp"
 #include "Array/27RemoveArrayElement.cpp"
 #include "Array/704ErFenSearch.cpp"
-#include "DynamicPlanning/LCS.cpp"
-#define NUMBER 1143
+#include "DynamicPlanning/1143LCS.cpp"
+#include "DynamicPlanning/509FIB.cpp"
+#define NUMBER 509
 
 int main()
 {
@@ -18,5 +19,9 @@ int main()
 	int length = RemoveArrayElement::removeElement(intVector, target);
 #elif NUMBER == 1143
 	int ret = LCS::longestCommonSubsequence("abcde", "ace");
+#elif NUMBER == 509
+	int n = InputUtil::InputT<int>("请输入要计算的斐波那契数列的项数：");
+	int ret = FIB::fib(n);
+	std::cout << "斐波那契数列第" << n << "项为：" << ret << std::endl;
 #endif
 }
