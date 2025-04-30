@@ -5,7 +5,8 @@
 #include "Array/704ErFenSearch.cpp"
 #include "DynamicPlanning/1143LCS.cpp"
 #include "DynamicPlanning/509FIB.cpp"
-#define NUMBER 509
+#include "DynamicPlanning/70ClimbStairs.cpp"
+#define NUMBER 70
 
 int main()
 {
@@ -23,5 +24,9 @@ int main()
 	int n = InputUtil::InputT<int>("请输入要计算的斐波那契数列的项数：");
 	int ret = FIB::fib(n);
 	std::cout << "斐波那契数列第" << n << "项为：" << ret << std::endl;
+#elif NUMBER == 70
+	int n = InputUtil::InputT<int>("请输入要计算的爬楼梯的阶数：");
+	int ret = ClimbStairs::climbStairs(n);
+	std::cout << "爬" << n << "阶楼梯的方法有：" << ret << "种" << std::endl;
 #endif
 }
