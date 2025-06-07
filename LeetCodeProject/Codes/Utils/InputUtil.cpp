@@ -12,23 +12,23 @@ public:
         std::vector<T> result;
         std::string inputLine;
 
-        // ÏÔÊ¾ÌáÊ¾ĞÅÏ¢
+        // æ˜¾ç¤ºæç¤ºä¿¡æ¯
         if (!prompt.empty()) {
             std::cout << prompt;
         }
 
-        // »ñÈ¡ÕûĞĞÊäÈë
+        // è·å–æ•´è¡Œè¾“å…¥
         std::getline(std::cin, inputLine);
 
-        // Ê¹ÓÃ×Ö·û´®Á÷·Ö¸îÊäÈë
+        // ä½¿ç”¨å­—ç¬¦ä¸²æµåˆ†å‰²è¾“å…¥
         std::istringstream iss(inputLine);
         std::string token;
 
         while (std::getline(iss, token, delimiter)) {
-            // Ìø¹ı¿Õtoken£¨Á¬Ğø·Ö¸ô·ûÇé¿ö£©
+            // è·³è¿‡ç©ºtokenï¼ˆè¿ç»­åˆ†éš”ç¬¦æƒ…å†µï¼‰
             if (token.empty()) continue;
 
-            // ½«token×ª»»ÎªÄ¿±êÀàĞÍ
+            // å°†tokenè½¬æ¢ä¸ºç›®æ ‡ç±»å‹
             std::istringstream converter(token);
             T value;
             if (converter >> value) {
@@ -44,19 +44,19 @@ public:
         T result;
         std::string inputLine;
 
-        // ÏÔÊ¾ÌáÊ¾ĞÅÏ¢
+        // æ˜¾ç¤ºæç¤ºä¿¡æ¯
         if (!prompt.empty()) {
             std::cout << prompt;
         }
 
-        // »ñÈ¡ÕûĞĞÊäÈë
+        // è·å–æ•´è¡Œè¾“å…¥
         std::getline(std::cin, inputLine);
 
-        // ½«ÊäÈë×ª»»ÎªÄ¿±êÀàĞÍ
+        // å°†è¾“å…¥è½¬æ¢ä¸ºç›®æ ‡ç±»å‹
         std::istringstream converter(inputLine);
         if (!(converter >> result)) {
-            // ×ª»»Ê§°ÜÊ±Å×³öÒì³£
-            throw std::runtime_error("ÊäÈëÀàĞÍ²»Æ¥Åä");
+            // è½¬æ¢å¤±è´¥æ—¶æŠ›å‡ºå¼‚å¸¸
+            throw std::runtime_error("è¾“å…¥ç±»å‹ä¸åŒ¹é…");
         }
 
         return result;

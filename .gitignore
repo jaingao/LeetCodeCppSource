@@ -44,3 +44,6 @@
 # Mac generate files
 .DS_Store
 *.dSYM
+
+# VS Code generate files
+.vscode/
